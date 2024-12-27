@@ -58,11 +58,15 @@ android {
     minSdkVersion getExtOrIntegerDefault("minSdkVersion")
     targetSdkVersion getExtOrIntegerDefault("targetSdkVersion")
 
+    ndk {
+      abiFilters "armeabi-v7a", "arm64-v8a"
+    }
   }
 
   buildTypes {
     release {
-      minifyEnabled false
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
     }
   }
 
@@ -87,5 +91,23 @@ dependencies {
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
+
+
+  implementation files('libs/aliyun-identitybase-sdk-1.2.5.intl.aar')
+  implementation files('libs/aliyun-identitycrypto-1.0.5.aar')
+  implementation files('libs/aliyun-identityface-1.2.5.intl.aar')
+  implementation files('libs/aliyun-identityocr-1.2.5.intl.aar')
+  implementation files('libs/aliyun-identityplatform-1.2.5.intl.aar')
+  implementation files('libs/aliyun-identityquality-sdk-1.2.5.intl.aar')
+  implementation files('libs/aliyun-identityservice-sdk-1.2.5.intl.aar')
+  implementation files('libs/Android-AliyunFaceGuard-10052.2.aar')
+  implementation files('libs/tygerservice-1.0.0.240823100656.aar')
+//  implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
+//  implementation 'com.android.support:support-v4:28.0.0'
+  implementation 'androidx.appcompat:appcompat:1.1.0'
+  implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+  implementation 'com.squareup.okio:okio:2.2.2'
+  implementation 'com.aliyun.dpa:oss-android-sdk:2.9.4'
+  implementation 'com.alibaba:fastjson:1.1.72.android'
 }
 

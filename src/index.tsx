@@ -17,6 +17,37 @@ const RnAliEkyc = NativeModules.RnAliEkyc
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RnAliEkyc.multiply(a, b);
+export function install(): Promise<undefined> {
+  return RnAliEkyc.install();
+}
+
+type TMetaInfo = {
+  apdidToken: string;
+  appName: string;
+  appVersion: string;
+  bioMetaInfo: string;
+  deviceBrand: string;
+  deviceManufacturer: string;
+  deviceModel: string;
+  deviceType: string;
+  identityVer: string;
+  osVersion: string;
+  sdkVersion: string;
+};
+
+export async function getMetaInfo(): Promise<TMetaInfo> {
+  const jsonStr = await RnAliEkyc.getMetaInfo();
+  return JSON.parse(jsonStr);
+}
+
+type IdentityResponse = {
+  code: number;
+  message: string;
+};
+
+export function verify(
+  transactionId: string,
+  extParams: any = {}
+): Promise<IdentityResponse> {
+  return RnAliEkyc.verify(transactionId, extParams);
 }
