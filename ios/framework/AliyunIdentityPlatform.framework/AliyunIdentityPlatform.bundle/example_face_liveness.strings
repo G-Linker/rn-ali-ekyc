@@ -1,0 +1,143 @@
+/*
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "拿起手机，眨眨眼";
+"identity_aliyun_no_face" = "没有检测到脸";
+"identity_aliyun_no_face2" = "未检测到脸，请对准手机"; // 不变
+"identity_aliyun_blink_openness" = "眨眨眼";
+"identity_aliyun_distance_too_far" = "靠近一点";
+"identity_aliyun_distance_too_close" = "离远一点";
+"identity_aliyun_move_circle" = "把脸移入框内";   // 不变
+"identity_aliyun_bad_pitch" = "请正对手机";
+"identity_aliyun_is_moving" = "再清晰一点";
+"identity_aliyun_bad_brightness" = "脸部亮一点";
+"identity_aliyun_move_circle2" = "请露出正脸";    // 不变
+"identity_aliyun_watch_the_screen" = "请注视屏幕";   // 不变
+"identity_aliyun_stack_time" = "请保持不动";
+
+// 展示文案
+"identity_aliyun_zface_processing" = "正在处理";
+"identity_processing" = "处理中...";
+"identity_aliyun_idcard_face" = "请将证件正面放入框内"; // 不变
+"identity_aliyun_idcard_back" = "请将证件反面放入框内"; // 不变
+"identity_ocr_result_btn_txt" = "确认无误";
+"identity_aliyun_submit" = "提交证件正面照片";  // 不变
+"identity_ocr_alert_title_photo_identity_text_watermark" = "仅供业务使用";
+"identity_ocr_result_top_tips" = "如有需要，请点击修改信息";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "拍摄您的护照照片";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "识别失败";
+"identity_ocr_alert_title_scan_single_timeout" = "识别超时";
+"identity_aliyun_failures_limit" = "识别失败次数超限"; // 不变
+"identity_ocr_photo_fail_id_type_error" = "检测不到证件";
+"identity_aliyun_wrong_doc_type" = "请确认您使用的证件类型符合要求"; // 不变
+"identity_aliyun_no_internet_connection" = "网络连接断开";//不变
+"identity_message_box_message_verify" = "正对手机，更容易成功";
+"identity_ocr_alert_scan_message_timeout" = "请确保证件清晰完整，无遮挡和反光";
+"identity_ocr_alert_net_message_error" = "网络不给力，请重试";
+"identity_ocr_result_title" = "识别结果";
+"identity_message_box_title_network" = "网络不给力";
+"identity_ocr_alert_net_message_error" = "网络不给力，请重试";
+"identity_aliyun_try_again_more_times" = "重试次数过多，请稍后再试"; // 不变
+"identity_ocr_alert_retry_text" = "重试";
+"identity_aliyun_interrupted" = "操作中断"; // 不变
+"identity_message_box_message_verify" = "正对手机，更容易成功";
+"identity_message_box_btn_retry_ok" = "再试一次";
+"identity_aliyun_no_camera_permission" = "相机权限未授予"; // 不变
+"identity_aliyun_get_camera_permission" = "请在\"设置-隐私-相机\"中允许访问相机"; // 不变
+"identity_message_box_btn_exit" = "退出";
+"identity_message_box_title_exit_tip" = "确定退出吗?";
+"identity_message_box_message_exit_tip" = "露个脸就能通过";
+"identity_message_box_btn_cancel_tip" = "取消";
+"identity_message_box_btn_confirm" = "确定";
+"identity_message_box_message_operation_fail" = "本次操作失败";
+"identity_message_box_message_retry_face_scan_time_out" = "刷脸次数过多，请稍后再试";
+"identity_message_box_btn_i_know" = "我知道了";
+"identity_message_box_title_operation_time_out" = "操作超时";
+"identity_tip_permission_storage" = "相册权限未打开";
+"identity_aliyun_get_photo_permission" = "请到 \"设置-隐私-照片\" 启用相册权限"; // 不变
+
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "请确保";
+"identity_ocr_result_info_net_input_empty1" = "不为空";
+"identity_ocr_result_info_net_form_error" = "请输入正确的";
+"identity_ocr_result_info_edit_continue_tips" = "请确认是否要继续编辑";
+
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "男/女";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "是/否";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "日-月-年";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "如：C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(月-年)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "如：***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "中文电码（如有）";
+"identity_ocr_result_id_hong_kong_hint_name" = "中文姓名（如有）";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "英文姓名";
+
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "年-月-日";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "如：CC1234567";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "中文姓名";
+"identity_ocr_result_id_hong_kong_go_hint_englishName" = "姓名（拼音）";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "如：北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "如：H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "姓名（拼音）";
+
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "如：12345678";
+
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "如：1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "中文姓";
+"identity_ocr_result_id_macao_givernamecn" = "中文名";
+"identity_ocr_result_id_macao_surname" = "英文姓";
+"identity_ocr_result_id_macao_givername" = "英文名";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "如：AS";
+
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "如：CHN";
+"identity_ocr_result_id_passport_hint_surname" = "姓";
+"identity_ocr_result_id_passport_hint_givenname" = "名";
+"identity_ocr_result_id_passport_hint_passportNo" = "请输入护照号码";
+
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "中文姓名";
+"identity_ocr_result_id_mainland_ethnicity" = "民族";
+"identity_ocr_result_id_mainland_address" = "住址";
+"identity_ocr_result_id_mainland_idNumber" = "身份证号";
+
+//卡证文案
+"identity_ocr_result_id_name" = "中文姓名";
+"identity_ocr_result_id_englishName" = "英文姓名";
+"identity_ocr_result_id_sex" = "性别";
+"identity_ocr_result_id_birthDate" = "出生日期";
+"identity_ocr_result_id_idNumber" = "身份证号";
+"identity_ocr_result_id_nameCode" = "中文电报号码";
+"identity_ocr_result_id_currentIssueDate" = "本次签发";
+"identity_ocr_result_id_firstIssueDate" = "首次签发";
+"identity_ocr_result_id_isPermanent" = "是否永久";
+"identity_ocr_result_id_symbols" = "符号";
+"identity_ocr_result_id_issueDate" = "签发日期";
+"identity_ocr_result_id_expiryDate" = "失效日期";
+"identity_ocr_result_id_originOfIssue" = "签发机关";
+"identity_ocr_result_id_passport_surname" = "姓";
+"identity_ocr_result_id_passport_givenname" = "名";
+"identity_ocr_result_id_surnameCN" = "姓";
+"identity_ocr_result_id_givennameCN" = "名";
+"identity_ocr_result_id_surname" = "英文姓";
+"identity_ocr_result_id_givenname" = "英文名";
+"identity_ocr_result_id_passportNo" = "护照号码";
+"identity_ocr_result_id_nationality" = "国籍";
+"identity_ocr_result_id_countryCode" = "国家码";
+"identity_ocr_result_id_placeOfIssue" = "签发地点";
+"identity_ocr_result_id_placeOfBirth" = "出生地代码";

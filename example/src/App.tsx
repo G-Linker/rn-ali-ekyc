@@ -1,24 +1,53 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'rn-ali-ekyc';
+import { useState } from 'react';
+import { StyleSheet, Text, Button, ScrollView } from 'react-native';
+import { install, getMetaInfo, verify } from 'rn-ali-ekyc';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  const [installResult, setInstallResult] = useState<boolean>(false);
+  const [metaInfoResult, setMetaInfoResult] = useState<any>();
+  const [verifyResult, setVerifyResult] = useState<any>();
 
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <ScrollView style={styles.scroll} contentContainerStyle={styles.container}>
+      <Button
+        title="install sdk"
+        onPress={() =>
+          install()
+            .then(() => setInstallResult(true))
+            .catch(() => setInstallResult(false))
+        }
+      />
+      <Text>Install Result: {JSON.stringify(installResult)}</Text>
+      <Button
+        title="getMetaInfo sdk"
+        onPress={() =>
+          getMetaInfo()
+            .then((metaInfo) => setMetaInfoResult(metaInfo))
+            .catch((error) => setMetaInfoResult(JSON.stringify(error)))
+        }
+      />
+      <Text>GetMetaInfo Result: {JSON.stringify(metaInfoResult)}</Text>
+      <Button
+        title="verify sdk"
+        onPress={() =>
+          verify('xxxx')
+            .then((metaInfo) => setVerifyResult(metaInfo))
+            .catch((error) => setVerifyResult(JSON.stringify(error)))
+        }
+      />
+      <Text>Verify Result: {JSON.stringify(verifyResult)}</Text>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
+  scroll: {
+    flexGrow: 1,
+  },
   container: {
     flex: 1,
+    flexDirection: 'column',
+    gap: 16,
     alignItems: 'center',
     justifyContent: 'center',
   },

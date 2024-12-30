@@ -1,0 +1,144 @@
+/* 
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "Pick up your mobile phone and blink";
+"identity_aliyun_no_face" = "No face detected";
+"identity_aliyun_no_face2" = "No face detected";
+"identity_aliyun_blink_openness" = "Blink";
+"identity_aliyun_distance_too_far" = "Move closer";
+"identity_aliyun_distance_too_close" = "Move further away";
+"identity_aliyun_move_circle" = "Move your face into the circle";
+"identity_aliyun_bad_pitch" = "Directly face your mobile phone";
+"identity_aliyun_is_moving" = "Make your face clearer";
+"identity_aliyun_bad_brightness" = "Brighten up your face";
+"identity_aliyun_move_circle2" = "Move your face into the circle";
+"identity_aliyun_watch_the_screen" = "Watch the screen";
+"identity_aliyun_stack_time" = "Watch the screen";
+"identity_aliyun_is_occ" = "Please keep your face clear and unobstructed";
+
+// 展示文案
+"identity_aliyun_zface_processing" = "Processing";
+"identity_processing" = "Processing";
+"identity_aliyun_idcard_face" = "Place your ID within the frame and take a picture";
+"identity_aliyun_idcard_back" = "Place your ID within the frame and take a picture";
+"identity_ocr_result_btn_txt" = "OK";
+"identity_aliyun_submit" = "Submit";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "For business use only";
+"identity_ocr_result_top_tips" = "Tap to modify the information if necessary";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "Take a photo of your passport";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "Recognition failed";
+"identity_ocr_alert_title_scan_single_timeout" = "The operation timed out";
+"identity_aliyun_failures_limit" = "The number of recognition failures exceeds the limit";
+"identity_ocr_photo_fail_id_type_error" = "No ID detected";
+"identity_aliyun_wrong_doc_type" = "Make sure you are using the required type of document";
+"identity_aliyun_no_internet_connection" = "No Internet Connection.";
+"The scan is more likely to succeed if you directly face your mobile phone" = "The scan is more likely to succeed if you directly face your mobile phone";
+"identity_ocr_alert_scan_message_timeout" = "Make sure your ID is fully visible, glare free and not blurrred.";
+"Check network connectivity" = "Check network connectivity";
+"identity_ocr_result_title" = "Recognition Result";
+"identity_message_box_title_network" = "Check network connectivity";
+"identity_ocr_alert_net_message_error" = "Check network connectivity";
+"identity_aliyun_try_again_more_times" = "Recognition has failed too frequently";
+"identity_ocr_alert_retry_text" = "Try Again";
+"identity_aliyun_interrupted" = "Verification is interrupted";
+"identity_message_box_message_verify" = "The scan is more likely to succeed if you directly face your mobile phone";
+"identity_message_box_btn_retry_ok" = "Try Again";
+"identity_aliyun_no_camera_permission" = "Access to your camera is forbidden. Check permissions";
+"identity_aliyun_get_camera_permission" = "Access to your camera is forbidden. Check permissions";
+"identity_message_box_btn_exit" = "Exit";
+"identity_message_box_title_exit_tip" = "Are you sure that you want to exit?";
+"identity_message_box_message_exit_tip" = "You need only to show your face";
+"identity_message_box_btn_cancel_tip" = "Cancel";
+"identity_message_box_btn_confirm" = "OK";
+"identity_message_box_message_operation_fail" = "The operation failed";
+"identity_message_box_message_retry_face_scan_time_out" = "Facial recognition has been performed too frequently. Try again later";
+"identity_message_box_btn_i_know" = "OK";
+"identity_message_box_title_operation_time_out" = "The operation timed out";
+"identity_tip_permission_storage" = "Album permissions are not enabled";
+"identity_aliyun_get_photo_permission" = "Choose Settings > Privacy > Photos and enable album permissions.";
+
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "Please ensure your ";
+"identity_ocr_result_info_net_input_empty1" = " is not empty";
+"identity_ocr_result_info_net_form_error" = "Please enter the correct ";
+"identity_ocr_result_info_edit_continue_tips" = "Please confirm if you want to continue editing";
+
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "F/M";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "Y/N";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "dd-mm-yyyy";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "e.g. C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(MM-YY)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "e.g. ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "Commercial Code (if any)";
+"identity_ocr_result_id_hong_kong_hint_name" = "Chinese name (if any)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "English name";
+
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "yyyy-mm-dd";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "e.g. CC1234567";
+"Name in Chinese" = "Name in Chinese";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "Name (pinyin)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "e.g.北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "e.g. H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "Name in English";
+
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "e.g. 12345678";
+
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "e.g. 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "Chinese surname";
+"identity_ocr_result_id_macao_givernamecn" = "Chinese given name";
+"identity_ocr_result_id_macao_surname" = "Family name";
+"identity_ocr_result_id_macao_givername" = "First name(s)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "e.g. AS";
+
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "e.g. CHN";
+"identity_ocr_result_id_passport_hint_surname" = "First name";
+"identity_ocr_result_id_passport_hint_givenname" = "Last name";
+"identity_ocr_result_id_passport_hint_passportNo" = "please input passport No.";
+
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "Name";
+"identity_ocr_result_id_mainland_ethnicity" = "Ethnicity";
+"identity_ocr_result_id_mainland_address" = "Address";
+"identity_ocr_result_id_mainland_idNumber" = "身份证号";
+
+//卡证文案
+"identity_ocr_result_id_name" = "Chinese Name";
+"identity_ocr_result_id_englishName" = "English Name";
+"identity_ocr_result_id_sex" = "Sex";
+"identity_ocr_result_id_birthDate" = "Date of Birth";
+"identity_ocr_result_id_idNumber" = "ID Number";
+"identity_ocr_result_id_nameCode" = "Name Code";
+"identity_ocr_result_id_currentIssueDate" = "Date of Issue";
+"identity_ocr_result_id_firstIssueDate" = "Date of First Issue";
+"identity_ocr_result_id_isPermanent" = "Permanent";
+"identity_ocr_result_id_symbols" = "Symbols";
+"identity_ocr_result_id_issueDate" = "Date of Issue";
+"identity_ocr_result_id_expiryDate" = "Date of Expiry";
+"identity_ocr_result_id_originOfIssue" = "Origin of Issue";
+"identity_ocr_result_id_passport_surname" = "Surname";
+"identity_ocr_result_id_passport_givenname" = "Given name";
+"identity_ocr_result_id_surnameCN" = "Surname CN";
+"identity_ocr_result_id_givennameCN" = "Given name CN";
+"identity_ocr_result_id_surname" = "Surname";
+"identity_ocr_result_id_givenname" = "Given name";
+"identity_ocr_result_id_passportNo" = "Passport Number";
+"identity_ocr_result_id_nationality" = "Nationality";
+"identity_ocr_result_id_countryCode" = "Country Code";
+"identity_ocr_result_id_placeOfIssue" = "Place of Issue";
+"identity_ocr_result_id_placeOfBirth" = "Place of Birth";
