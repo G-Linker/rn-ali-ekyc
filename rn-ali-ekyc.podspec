@@ -16,9 +16,8 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm}"
   s.xcconfig = {
-    'OTHER_LINKER_FLAGS' => '-ObjC',
-    'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/rn-ali-ekyc/framework',
-    'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/rn-ali-ekyc/framework/AliyunIdentityPlatform.framework/Headers'
+    'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/../../node_modules/rn-ali-ekyc/ios/framework',
+    'USER_HEADER_SEARCH_PATHS' => '${PODS_ROOT}/../../node_modules/rn-ali-ekyc/ios/framework/AliyunIdentityPlatform.framework/Headers'
   }
 
   # Use install_modules_dependencies helper to install the dependencies if React Native version >=0.71.0.
