@@ -1,6 +1,6 @@
 {
   "name": "rn-ali-ekyc",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "alibaba ekyc sdk",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
